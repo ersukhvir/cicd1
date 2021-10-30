@@ -1,4 +1,4 @@
-FROM httpd:alpine3.14
+FROM httpd:latest
 
 WORKDIR /var/www/html/
 
