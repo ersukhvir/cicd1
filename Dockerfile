@@ -1,7 +1,7 @@
-FROM httpd:latest
+FROM nginx:alpine
 
-WORKDIR /var/www/html/
+# WORKDIR /var/www/html/
 
-COPY . .
+# COPY . .
 
-# EXPOSE 80
+EXPOSE 80
